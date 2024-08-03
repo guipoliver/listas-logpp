@@ -1,0 +1,8 @@
+V = input('Digite o valor da prestacao:')
+V = float(V)
+T = input('Digite um valor para a taxa da prestacao:')
+T = float(T)
+Te = input('Digite um valor para o tempo da prestacao:')
+Te = float(Te)
+P = V+(V*(T/100)*Te)
+print(f'o valor da prestacao é igual a {P}')
