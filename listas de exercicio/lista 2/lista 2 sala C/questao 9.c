@@ -11,5 +11,5 @@ int main(){
         printf("%d é divisivel por 4 e 5, ", N1);
     } if(N2 % 4==0 || N2 % 5==0){
          printf("%d é divisivel por 4 e 5, ", N2);
-    }
+    } 
 }

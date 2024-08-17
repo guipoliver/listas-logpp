@@ -1,8 +1,6 @@
-numero = int(input("Digite um número inteiro (positivo ou negativo): "))
-
-if numero < 0:
-    valor_absoluto = -numero
+n1 = int(input("Digite um numero para saber seu modulo:"))
+if n1 > 0:
+    print(f"{n1} ja é um numero positivo")
 else:
-    valor_absoluto = numero
-
-print(f"O valor absoluto de {numero} é {valor_absoluto}.")
+    n1 = n1 * -1
+    print(f"o modulo do numero digitado é {n1}")
