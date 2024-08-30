@@ -5,6 +5,8 @@ f2 = 0
 f3 = 0
 f4 = 0
 f5 = 0
+p = 0
+i = 0
 while True:
     N = input("Digite quantos numeros inteiros desejar para terminar digite 'terminar':")
     if N.lower() == 'terminar':
@@ -31,3 +33,11 @@ for x in lista:
     else:
         f5 += 1
 print(f"Faixa 1 tem {f1} elementos \nFaixa 2 tem {f2} elementos \nFaixa 3 tem {f3} elementos \nFaixa 4 tem {f4} elementos \nFaixa 5 tem {f5} elementos")
+for x in lista:
+    if x % 2 == 0:
+        print(f"{x} é par")
+        p += 1
+    else:
+        print(f"{x} é impar")
+        i += 1
+print(f"nos numeros digitados tem {p} pares e {i} impares")
